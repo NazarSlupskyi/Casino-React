@@ -1,0 +1,712 @@
+html {
+  background: linear-gradient(45deg,#4b4b4a, #6e2a46);
+  height: 100%;
+  background-size: 100%;
+}
+
+#root {
+  padding-bottom: 100px;
+}
+
+.header { 
+  margin: 0 auto;
+  font-size: 30px;
+  width: max-content;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tab-conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.choice-type-user {
+  width: 300px;
+  background-color: rgb(94, 92, 92);
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  border-radius: 30px;
+  transition: 2s;
+}
+
+.choice-type-user:hover {
+  background-color: red;
+}
+
+.massage-on-first-run {
+  width: 50%;
+  height: 100px;
+  background-color: red;
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+  font-size: 50px;
+  color: white;
+}
+
+.admin-main-conteiner {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.admin-header-conteiner { 
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.admin-header-text {
+  font-size: 25px;
+  color: white;
+  margin-right: 15px;
+}
+
+.admin-add-btn {
+  background-color: rgb(6, 158, 6);
+  color: white;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.admin-list-conteiner { 
+  justify-content: center;
+}
+
+.admin-list {
+  background-color: gray;
+  text-align: center;
+  list-style-type: none;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  transition: 1s;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.admin-list:hover {
+  background-color: red;
+  width: 650px;
+}
+
+.add-new-admin-conteiner {
+  width: 60%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: red;
+  padding: 30px;
+  margin-top: 30px
+}
+
+.add-new-admin-title {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.add-new-admin-name {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.add-new-admin-name-input {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border:none;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.add-new-admin-money {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.add-new-admin-money-input {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.add-new-admin-btn-conteiner {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+}
+
+.add-new-admin-btn-submit {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgb(6, 158, 6);
+  border-radius: 30px;
+  color: white;
+}
+
+.add-new-admin-btn-cancel {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  border-radius: 30px;
+  color: white;
+}
+
+.admin-casinos-header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.admin-casinos-title {
+  font-size: 25px;
+  color: white;
+  margin-right: 15px;
+}
+
+.add-new-casino-btn {
+  background-color: rgb(6, 158, 6);
+  color: white;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.list-of-admin-casinos {
+  justify-content: center;
+}
+
+.admin-casino {
+  background-color: gray;
+  text-align: center;
+  list-style-type: none;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  transition: 1s;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.admin-casino:hover {
+  background-color: orange;
+}
+
+.list-of-casino-machins {
+  justify-content: center;
+}
+
+.casino-machin {
+  background: linear-gradient(45deg,#850404,#686868);
+  text-align: center;
+  list-style-type: none;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.casino-machin-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.casino-machins-header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.casino-header-name {
+  font-size: 25px;
+  color: white;
+  margin-right: 15px;
+}
+
+.add-new-machin-btn {
+  background-color: rgb(6, 158, 6);
+  color: white;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.casino-info-conteiner {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.casino-info-money {
+  font-size: 20px;
+  color: white;
+  margin-right: 15px;
+}
+
+.casino-info-machins-count {
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+}
+
+.casino-info-your-balance {
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+}
+
+.casino-machin-amount-of-money {
+  font-size: 20px;
+  color: white;
+}
+
+.casino-machin-name {
+  font-size: 20px;
+  color: white;
+}
+
+.casino-machin-delete-btn {
+  font-size: 10px;
+  color: white;
+  background-color: red;
+  outline: none;
+  border: none;
+  transition: 1s;
+  border-radius: 8px;
+}
+
+.casino-machin-action-title {
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.casino-machin-take-money-input {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 25px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.casino-machin-take-money-btn {
+  width: 100px;
+  height: 27px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.casino-machin-transfer-money-input {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 25px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.casino-machin-transfer-money-btn {
+  width: 100px;
+  height: 27px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.casino-machin-play-input {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 25px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.casino-machin-play-btn {
+  width: 100px;
+  height: 27px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.add-new-machin-conteiner {
+  width: 40%;
+  margin: 0 auto;
+  height: 200px;
+  background-color: red;
+  padding: 30px;
+  margin-top: 30px
+}
+
+.add-new-machin-title {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.add-new-machin-money {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.add-new-machin-money-input {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.add-new-machin-btn-conteiner {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+}
+
+.add-new-machin-btn-submit {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgb(6, 158, 6);
+  border-radius: 30px;
+  color: white;
+}
+
+.add-new-machin-btn-cancel {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  border-radius: 30px;
+  color: white;
+}
+
+.add-new-casino-conteiner {
+  width: 40%;
+  margin: 0 auto;
+  height: 200px;
+  background-color: red;
+  padding: 30px;
+  margin-top: 30px
+}
+
+.add-new-casino-title {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.add-new-casino-name {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.add-new-casino-name-input {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.add-new-casino-btn-conteiner {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+}
+
+.add-new-casino-btn-submit {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgb(6, 158, 6);
+  border-radius: 30px;
+  color: white;
+}
+
+.add-new-casino-btn-cancel {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  border-radius: 30px;
+  color: white;
+}
+
+.users-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.users-header-title {
+  font-size: 25px;
+  color: white;
+  margin-right: 15px;
+}
+
+.users-btn-add-user {
+  background-color: rgb(6, 158, 6);
+  color: white;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.user-list {
+  background-color: gray;
+  text-align: center;
+  list-style-type: none;
+  font-size: 30px;
+  color: white;
+  width: 600px;
+  margin: 0 auto;
+  transition: 1s;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.user-list:hover {
+  background-color: orange;
+}
+
+.add-new-user-conteiner {
+  width: 60%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: red;
+  padding: 30px;
+  margin-top: 30px
+}
+
+.add-new-user-title {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.add-new-user-name {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.add-new-user-name-input {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  border:none;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.add-new-user-money {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.add-new-user-money-input {
+  display: block;
+  width: 310px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 30px;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.add-new-user-btn-conteiner {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+}
+
+.add-new-user-btn-submit {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgb(6, 158, 6);
+  border-radius: 30px;
+  color: white;
+}
+
+.add-new-user-btn-cancel {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  border-radius: 30px;
+  color: white;
+}
+
+.user-header {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.user-name-title {
+  font-size: 20px;
+  color: white;
+  margin-right: 15px;
+}
+
+.user-amount-of-money {
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+}
+
+.user-casinos-conteiner {
+  justify-content: center;
+  border-bottom: 100px;
+}
+
+.user-casino {
+  text-align: center;
+  list-style-type: none;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-top: 30px;
+  background: linear-gradient(45deg,#686868, #850404);
+}
+
+.user-casino-conteiner {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.user-casino-name {
+  font-size: 35px;
+  color: white;
+  margin-top: 10px;
+}
+
+.user-casino-play-title {
+  font-size: 20px;
+  color: white;
+}
+
+.user-casino-machin-name {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.user-casino-play-input {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  outline: none;
+  border:none;
+  height: 25px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.user-casino-play-button {
+  width: 100px;
+  height: 27px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 0;
+  margin-left: 5px;
+}
